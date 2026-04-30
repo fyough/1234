@@ -16,6 +16,14 @@ VOD_DIR = os.path.join(SCRIPT_DIR, "vod")
 CACHE_FILE = os.path.join(VOD_DIR, "movie_cache.json")
 OUTPUT_M3U = os.path.join(VOD_DIR, "movies.m3u")
 OUTPUT_XML = os.path.join(VOD_DIR, "epg.xml")
+
+# Valid genres based on previous analysis
+VALID_GENRES = {
+    "Action", "Adventure", "Animation", "Biography", "Comedy", 
+    "Crime", "Drama", "Family", "Fantasy", "Horror", 
+    "Music", "Musical", "Mystery", "Romance", "Sci-Fi", 
+    "Short", "Thriller"
+}
 # ---------------------
 
 def load_cache():
@@ -98,14 +106,25 @@ def generate_vod_assets():
             else:
                 details = cache.get(display_name)
             
-            # --- Extract Data ---
-            genre_list = "Movies" # Default
+            # --- Extract Data & Apply Genre Logic ---
+            genre_list = "Other" 
             if isinstance(details, dict):
                 title = details.get("Title", display_name)
                 poster = details.get("Poster", "")
                 plot_text = details.get("Plot", "No description available.").replace('"', "'")
                 year_val = details.get("Year", "")
-                genre_list = details.get("Genre", "Movies") # Pull genre from cache
+                
+                # Filter Genre logic
+                raw_genre = details.get("Genre", "N/A")
+                if raw_genre and raw_genre != "N/A":
+                    # Split and check the first primary genre
+                    first_genre = raw_genre.split(',')[0].strip()
+                    if first_genre in VALID_GENRES:
+                        genre_list = first_genre
+                    else:
+                        genre_list = "Other"
+                else:
+                    genre_list = "Other"
                 
                 if year_val and year_val not in title:
                     final_title = f"{title} ({year_val})"
@@ -115,11 +134,11 @@ def generate_vod_assets():
                 final_title = display_name
                 poster = ""
                 plot_text = "No description available."
+                genre_list = "Other"
 
             logo = f' tvg-logo="{poster}"' if poster.startswith("http") else ""
             
-            # --- 1. Update M3U ---
-            # We add group-title so movies are organized by genre in TiviMate categories
+            # --- 1. Update M3U (Organized by Genre for TiviMate) ---
             m3u_content.append(f'#EXTINF:-1 tvg-id="{display_name}" tvg-name="{display_name}"{logo} plot="{plot_text}" group-title="{genre_list}",{final_title}')
             m3u_content.append(full_url)
 
@@ -134,9 +153,8 @@ def generate_vod_assets():
             ET.SubElement(prog, "title").text = final_title
             ET.SubElement(prog, "desc").text = plot_text
             
-            # Add Genre to XMLTV categories
-            for g in genre_list.split(','):
-                ET.SubElement(prog, "category").text = g.strip()
+            # Add filtered genre to XMLTV category
+            ET.SubElement(prog, "category").text = genre_list
 
     # Save Files
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
@@ -147,7 +165,7 @@ def generate_vod_assets():
     tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True)
     
     save_cache(cache)
-    print(f"Update complete. Added genres and descriptions for {len(m3u_content)//2} movies.")
+    print(f"Update complete. Processed {len(m3u_content)//2} movies with filtered genres.")
 
 if __name__ == "__main__":
     generate_vod_assets()
