@@ -1,105 +1,120 @@
 import requests
 from bs4 import BeautifulSoup
 import os
+import re
 import json
 from urllib.parse import urljoin, unquote
 
 # --- CONFIGURATION ---
-BASE_URL = "http://64.52.81.50:8080/VOD/MOVIES/"
-OMDB_API_KEY = "76495146"
-CACHE_FILE = "scraper-logic/vod/movie_cache.json"
-OUTPUT_M3U = "scraper-logic/vod/movies.m3u"
+# Using the URL from your original script provided above
+OMDB_API_KEY = os.environ.get("OMDB_API_KEY")
+BASE_URL = "http://23.147.64.113/movies/Other/"
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+VOD_DIR = os.path.join(SCRIPT_DIR, "vod")
+CACHE_FILE = os.path.join(VOD_DIR, "movie_cache.json")
+OUTPUT_M3U = os.path.join(VOD_DIR, "movies.m3u")
+# ---------------------
 
 def load_cache():
     if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, 'r') as f:
-            return json.load(f)
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                return {}
     return {}
 
 def save_cache(cache):
-    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
-    with open(CACHE_FILE, 'w') as f:
+    if not os.path.exists(VOD_DIR):
+        os.makedirs(VOD_DIR)
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=4)
 
-def get_movie_details(display_name, cache):
-    # Check cache first
-    if display_name in cache:
-        return cache[display_name]
+def get_movie_details(title, cache):
+    if title in cache:
+        return cache[title]
+    
+    if not OMDB_API_KEY:
+        return None
+    
+    year_match = re.search(r'\((\d{4})\)', title)
+    year = year_match.group(1) if year_match else ""
+    clean_title = re.sub(r'\(.*?\)', '', title).strip()
 
-    # If not in cache, try OMDb
+    params = {
+        "apikey": OMDB_API_KEY, 
+        "t": clean_title, 
+        "y": year if year else None, 
+        "plot": "short"
+    }
+
     try:
-        response = requests.get(f"http://www.omdbapi.com/?t={display_name}&apikey={OMDB_API_KEY}", timeout=10)
+        response = requests.get("http://www.omdbapi.com/", params=params, timeout=5)
         data = response.json()
-        
         if data.get("Response") == "True":
-            movie_info = {
-                "title": data.get("Title"),
-                "poster": data.get("Poster"),
-                "plot": data.get("Plot"),
-                "year": data.get("Year")
-            }
-            cache[display_name] = movie_info
-            return movie_info
+            cache[title] = data
+            return data
         elif data.get("Error") == "Request limit reached!":
             return "LIMIT_REACHED"
-    except Exception as e:
-        print(f"Error fetching OMDb for {display_name}: {e}")
-    
+    except Exception:
+        pass
     return None
 
-def generate_playlist():
-    cache = load_cache()
-    video_exts = ('.mp4', '.mkv', '.avi', '.mov')
-    m3u_lines = ["#EXTM3U"]
+def generate_vod_m3u():
+    if not os.path.exists(VOD_DIR):
+        os.makedirs(VOD_DIR)
     
-    print(f"Fetching file list from {BASE_URL}...")
+    cache = load_cache()
+    m3u_content = ["#EXTM3U"]
+    
+    print(f"Connecting to: {BASE_URL}")
     try:
-        response = requests.get(BASE_URL, timeout=20)
+        response = requests.get(BASE_URL, timeout=15)
+        response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
     except Exception as e:
-        print(f"Failed to reach server: {e}")
+        print(f"Failed to reach source: {e}")
         return
 
+    video_exts = ('.mp4', '.mkv', '.avi', '.mov', '.m4v')
     limit_hit = False
-    movies_processed = 0
-
+    
     for link in soup.find_all('a'):
         href = link.get('href')
         if href and href.lower().endswith(video_exts):
-            # 1. Basic Info (Always available)
             display_name = os.path.splitext(unquote(href).strip('/'))[0]
             full_url = urljoin(BASE_URL, href)
             
-            # 2. Enrichment (Try to get high-quality info)
+            # If we haven't hit the limit, try to get/fetch details
             details = None
             if not limit_hit:
                 details = get_movie_details(display_name, cache)
                 if details == "LIMIT_REACHED":
-                    print("!!! OMDb API Limit Reached. Using cache/defaults for remaining files.")
+                    print("OMDb limit reached. Continuing with basic file info...")
                     limit_hit = True
-                    details = cache.get(display_name) 
+                    details = cache.get(display_name) # Check if it's already in cache
             else:
-                # Limit already hit this run, check if we have it in cache
+                # Limit was hit earlier, just use cache if it exists
                 details = cache.get(display_name)
-
-            # 3. Build M3U Entry
-            # Use enriched data if we have it, otherwise fallback to filename
-            title = details['title'] if details and details.get('title') else display_name
-            poster = details['poster'] if details and details.get('poster') and details['poster'] != "N/A" else ""
-            plot = details['plot'] if details and details.get('plot') else "No description available."
             
-            entry = f'#EXTINF:-1 tvg-name="{display_name}" tvg-logo="{poster}" group-title="VOD Movies", {title}\n'
-            entry += f'#EXTDESCRIPTION: {plot}\n'
-            entry += f'{full_url}'
-            m3u_lines.append(entry)
-            movies_processed += 1
+            # --- Build M3U Entry even if details are missing ---
+            is_dict = isinstance(details, dict)
+            poster = details.get("Poster", "") if is_dict else ""
+            plot = details.get("Plot", "No description available.").replace('"', "'") if is_dict else ""
+            year_val = details.get("Year", "") if is_dict else ""
+            
+            logo = f' tvg-logo="{poster}"' if poster.startswith("http") else ""
+            title_line = f'{display_name} ({year_val})' if year_val else display_name
+            
+            m3u_content.append(f'#EXTINF:-1 tvg-name="{display_name}"{logo} description="{plot}" group-title="Other Movies",{title_line}')
+            m3u_content.append(full_url)
 
-    # Save everything
-    with open(OUTPUT_M3U, 'w', encoding='utf-8') as f:
-        f.write("\n".join(m3u_lines))
-    
+    # Save both files
     save_cache(cache)
-    print(f"Playlist generated with {movies_processed} entries.")
+    with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
+        f.write("\n".join(m3u_content))
+    print(f"Update complete. Created playlist with {len(m3u_content)//2} movies.")
 
 if __name__ == "__main__":
-    generate_playlist()
+    generate_vod_m3u()
