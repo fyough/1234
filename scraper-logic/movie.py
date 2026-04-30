@@ -6,7 +6,6 @@ import json
 from urllib.parse import urljoin, unquote
 
 # --- CONFIGURATION ---
-# Using the URL from your original script provided above
 OMDB_API_KEY = os.environ.get("OMDB_API_KEY")
 BASE_URL = "http://23.147.64.113/movies/Other/"
 
@@ -31,16 +30,17 @@ def save_cache(cache):
     with open(CACHE_FILE, "w", encoding="utf-8") as f:
         json.dump(cache, f, indent=4)
 
-def get_movie_details(title, cache):
-    if title in cache:
-        return cache[title]
+def get_movie_details(display_name, cache):
+    if display_name in cache:
+        return cache[display_name]
     
     if not OMDB_API_KEY:
         return None
     
-    year_match = re.search(r'\((\d{4})\)', title)
+    # Extract year and clean the title for a better API search
+    year_match = re.search(r'\((\d{4})\)', display_name)
     year = year_match.group(1) if year_match else ""
-    clean_title = re.sub(r'\(.*?\)', '', title).strip()
+    clean_title = re.sub(r'\(.*?\)', '', display_name).strip()
 
     params = {
         "apikey": OMDB_API_KEY, 
@@ -53,7 +53,7 @@ def get_movie_details(title, cache):
         response = requests.get("http://www.omdbapi.com/", params=params, timeout=5)
         data = response.json()
         if data.get("Response") == "True":
-            cache[title] = data
+            cache[display_name] = data
             return data
         elif data.get("Error") == "Request limit reached!":
             return "LIMIT_REACHED"
@@ -83,35 +83,45 @@ def generate_vod_m3u():
     for link in soup.find_all('a'):
         href = link.get('href')
         if href and href.lower().endswith(video_exts):
+            # Original filename without extension: e.g., "10,000 BC (2008)"
             display_name = os.path.splitext(unquote(href).strip('/'))[0]
             full_url = urljoin(BASE_URL, href)
             
-            # If we haven't hit the limit, try to get/fetch details
             details = None
             if not limit_hit:
                 details = get_movie_details(display_name, cache)
                 if details == "LIMIT_REACHED":
                     print("OMDb limit reached. Continuing with basic file info...")
                     limit_hit = True
-                    details = cache.get(display_name) # Check if it's already in cache
+                    details = cache.get(display_name)
             else:
-                # Limit was hit earlier, just use cache if it exists
                 details = cache.get(display_name)
             
             # --- Build M3U Entry ---
-            is_dict = isinstance(details, dict)
-            poster = details.get("Poster", "") if is_dict else ""
-            plot = details.get("Plot", "No description available.").replace('"', "'") if is_dict else ""
-            year_val = details.get("Year", "") if is_dict else ""
-            
+            if isinstance(details, dict):
+                # Use data from OMDb if available
+                title = details.get("Title", display_name)
+                poster = details.get("Poster", "")
+                plot = details.get("Plot", "No description available.").replace('"', "'")
+                year_val = details.get("Year", "")
+                
+                # Check if the title already contains the year to prevent "Title (Year) (Year)"
+                if year_val and year_val not in title:
+                    final_title = f"{title} ({year_val})"
+                else:
+                    final_title = title
+            else:
+                # Fallback to file info if OMDb fails or limit hit
+                final_title = display_name
+                poster = ""
+                plot = "No description available."
+
             logo = f' tvg-logo="{poster}"' if poster.startswith("http") else ""
-            title_line = f'{display_name} ({year_val})' if year_val else display_name
             
-            # Changed group-title from "Other Movies" to "Movies"
-            m3u_content.append(f'#EXTINF:-1 tvg-name="{display_name}"{logo} description="{plot}" group-title="Movies",{title_line}')
+            # Formatting line for TiviMate compatibility
+            m3u_content.append(f'#EXTINF:-1 tvg-name="{display_name}"{logo} description="{plot}" group-title="Movies",{final_title}')
             m3u_content.append(full_url)
 
-    # Save both files
     save_cache(cache)
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_content))
