@@ -98,7 +98,7 @@ def generate_vod_m3u():
                 # Limit was hit earlier, just use cache if it exists
                 details = cache.get(display_name)
             
-            # --- Build M3U Entry even if details are missing ---
+            # --- Build M3U Entry ---
             is_dict = isinstance(details, dict)
             poster = details.get("Poster", "") if is_dict else ""
             plot = details.get("Plot", "No description available.").replace('"', "'") if is_dict else ""
@@ -107,7 +107,8 @@ def generate_vod_m3u():
             logo = f' tvg-logo="{poster}"' if poster.startswith("http") else ""
             title_line = f'{display_name} ({year_val})' if year_val else display_name
             
-            m3u_content.append(f'#EXTINF:-1 tvg-name="{display_name}"{logo} description="{plot}" group-title="Other Movies",{title_line}')
+            # Changed group-title from "Other Movies" to "Movies"
+            m3u_content.append(f'#EXTINF:-1 tvg-name="{display_name}"{logo} description="{plot}" group-title="Movies",{title_line}')
             m3u_content.append(full_url)
 
     # Save both files
