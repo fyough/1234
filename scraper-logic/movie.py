@@ -40,7 +40,6 @@ def get_movie_details(display_name, cache):
     if not OMDB_API_KEY:
         return None
     
-    # Extract year and clean the title for a better API search
     year_match = re.search(r'\((\d{4})\)', display_name)
     year = year_match.group(1) if year_match else ""
     clean_title = re.sub(r'\(.*?\)', '', display_name).strip()
@@ -70,8 +69,6 @@ def generate_vod_assets():
     
     cache = load_cache()
     m3u_content = ["#EXTM3U"]
-    
-    # XMLTV Root Setup
     xml_root = ET.Element("tv")
     
     print(f"Connecting to: {BASE_URL}")
@@ -96,18 +93,19 @@ def generate_vod_assets():
             if not limit_hit:
                 details = get_movie_details(display_name, cache)
                 if details == "LIMIT_REACHED":
-                    print("OMDb limit reached. Continuing with basic file info...")
                     limit_hit = True
                     details = cache.get(display_name)
             else:
                 details = cache.get(display_name)
             
             # --- Extract Data ---
+            genre_list = "Movies" # Default
             if isinstance(details, dict):
                 title = details.get("Title", display_name)
                 poster = details.get("Poster", "")
                 plot_text = details.get("Plot", "No description available.").replace('"', "'")
                 year_val = details.get("Year", "")
+                genre_list = details.get("Genre", "Movies") # Pull genre from cache
                 
                 if year_val and year_val not in title:
                     final_title = f"{title} ({year_val})"
@@ -120,11 +118,12 @@ def generate_vod_assets():
 
             logo = f' tvg-logo="{poster}"' if poster.startswith("http") else ""
             
-            # --- 1. Update M3U (using plot instead of description) ---
-            m3u_content.append(f'#EXTINF:-1 tvg-id="{display_name}" tvg-name="{display_name}"{logo} plot="{plot_text}" group-title="Movies",{final_title}')
+            # --- 1. Update M3U ---
+            # We add group-title so movies are organized by genre in TiviMate categories
+            m3u_content.append(f'#EXTINF:-1 tvg-id="{display_name}" tvg-name="{display_name}"{logo} plot="{plot_text}" group-title="{genre_list}",{final_title}')
             m3u_content.append(full_url)
 
-            # --- 2. Update XMLTV (for TiviMate EPG support) ---
+            # --- 2. Update XMLTV ---
             chan = ET.SubElement(xml_root, "channel", id=display_name)
             ET.SubElement(chan, "display-name").text = final_title
             
@@ -134,18 +133,21 @@ def generate_vod_assets():
             prog = ET.SubElement(xml_root, "programme", start=start, stop=stop, channel=display_name)
             ET.SubElement(prog, "title").text = final_title
             ET.SubElement(prog, "desc").text = plot_text
+            
+            # Add Genre to XMLTV categories
+            for g in genre_list.split(','):
+                ET.SubElement(prog, "category").text = g.strip()
 
-    # Save M3U
+    # Save Files
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_content))
     
-    # Save XMLTV
     tree = ET.ElementTree(xml_root)
     ET.indent(tree, space="  ", level=0)
     tree.write(OUTPUT_XML, encoding="utf-8", xml_declaration=True)
     
     save_cache(cache)
-    print(f"Update complete. Created M3U and EPG for {len(m3u_content)//2} movies.")
+    print(f"Update complete. Added genres and descriptions for {len(m3u_content)//2} movies.")
 
 if __name__ == "__main__":
     generate_vod_assets()
