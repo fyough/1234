@@ -42,10 +42,10 @@ def save_cache(cache):
         json.dump(cache, f, indent=4)
 
 def clean_title_for_search(display_name):
-    # Remove year, quality, source tags, etc.
+    """Clean filename for better TMDB search"""
     clean = re.sub(r'\(\d{4}\)', '', display_name)           # Remove year
-    clean = re.sub(r'\b(1080p|720p|2160p|4K|BluRay|WEBRip|HDRip|x264|x265|H265|AAC|DD5|DD+)\b', '', clean, flags=re.I)
-    clean = re.sub(r'[\.\-_]', ' ', clean)                   # Replace dots/hyphens
+    clean = re.sub(r'\b(1080p|720p|2160p|4K|BluRay|WEBRip|HDRip|x264|x265|H265|AAC|DD5|DD+|HEVC|REMUX)\b', '', clean, flags=re.I)
+    clean = re.sub(r'[\.\-_]', ' ', clean)                   # Replace dots, hyphens, underscores
     clean = re.sub(r'\s+', ' ', clean).strip()
     return clean
 
@@ -63,12 +63,11 @@ def get_movie_details(display_name, cache):
     search_attempts = [
         (original_clean, year),                    # Best attempt
         (original_clean, None),                    # Without year
-        (display_name.replace('.', ' '), year),    # Less cleaning
+        (display_name.replace('.', ' '), year),    # Minimal cleaning
     ]
 
     for query, y in search_attempts:
         try:
-            # Search
             params = {
                 "api_key": TMDB_API_KEY,
                 "query": query,
@@ -98,9 +97,9 @@ def get_movie_details(display_name, cache):
                 return details
 
         except Exception:
-            continue  # Try next method
+            continue
 
-    # If nothing worked, cache None so we don't retry every time
+    # Cache failure to avoid retrying every run
     cache[display_name] = None
     return None
 
@@ -130,11 +129,17 @@ def generate_vod_assets():
 
         details = get_movie_details(display_name, cache)
 
-        if isinstance(details, dict) and details.get("overview"):
+        if isinstance(details, dict):
             title = details.get("title") or details.get("original_title", display_name)
             poster_path = details.get("poster_path")
             poster = f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else ""
-            plot_text = details.get("overview", "No description available.").replace('"', "'")
+            
+            plot_text = details.get("overview", "").strip()
+            if not plot_text:
+                plot_text = "No description available."
+            else:
+                plot_text = plot_text.replace('"', "'")
+
             year_val = str(details.get("release_date", ""))[:4] if details.get("release_date") else ""
 
             # Genre
@@ -160,11 +165,13 @@ def generate_vod_assets():
         )
         m3u_content.append(full_url)
 
-        # XMLTV (same as before)
+        # XMLTV
         chan = ET.SubElement(xml_root, "channel", id=display_name)
         ET.SubElement(chan, "display-name").text = final_title
+        
         start = datetime.now().strftime("%Y%m%d000000 +0000")
         stop = (datetime.now() + timedelta(days=7)).strftime("%Y%m%d235959 +0000")
+        
         prog = ET.SubElement(xml_root, "programme", start=start, stop=stop, channel=display_name)
         ET.SubElement(prog, "title").text = final_title
         ET.SubElement(prog, "desc").text = plot_text
@@ -172,7 +179,7 @@ def generate_vod_assets():
 
         processed += 1
 
-    # Save
+    # Save files
     with open(OUTPUT_M3U, "w", encoding="utf-8") as f:
         f.write("\n".join(m3u_content))
 
