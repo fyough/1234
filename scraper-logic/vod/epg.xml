@@ -57,12 +57,12 @@
     <category>Other</category>
   </programme>
   <channel id="101 Dalmatians II Patch's London Adventure (2003)">
-    <display-name>101 Dalmatians II Patch's London Adventure (2003)</display-name>
+    <display-name>101 Dalmatians II: Patch's London Adventure (2003)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="101 Dalmatians II Patch's London Adventure (2003)">
-    <title>101 Dalmatians II Patch's London Adventure (2003)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>101 Dalmatians II: Patch's London Adventure (2003)</title>
+    <desc>Being one of 101 takes its toll on Patch, who doesn't feel unique. When he's accidentally left behind on moving day, he meets his idol, Thunderbolt, who enlists him on a publicity campaign.</desc>
+    <category>Family</category>
   </programme>
   <channel id="102 Dalmatians (2000)">
     <display-name>102 Dalmatians (2000)</display-name>
@@ -309,8 +309,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="A Fistful of Dollars (1964)">
     <title>A Fistful of Dollars (1964)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>The Man With No Name enters the Mexican village of San Miguel in the midst of a power struggle among the three Rojo brothers and sheriff John Baxter. When a regiment of Mexican soldiers bearing gold intended to pay for new weapons is waylaid by the Rojo brothers, the stranger inserts himself into the middle of the long-simmering battle, selling false information to both sides for his own benefit.</desc>
+    <category>Western</category>
   </programme>
   <channel id="A Garfield Christmas Special (1987)">
     <display-name>A Garfield Christmas Special (1987)</display-name>
@@ -393,12 +393,12 @@
     <category>Other</category>
   </programme>
   <channel id="A Nightmare on Elm Street Part 2 Freddy's Revenge (1985)">
-    <display-name>A Nightmare on Elm Street Part 2 Freddy's Revenge (1985)</display-name>
+    <display-name>A Nightmare on Elm Street Part 2: Freddy's Revenge (1985)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="A Nightmare on Elm Street Part 2 Freddy's Revenge (1985)">
-    <title>A Nightmare on Elm Street Part 2 Freddy's Revenge (1985)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>A Nightmare on Elm Street Part 2: Freddy's Revenge (1985)</title>
+    <desc>A teenage boy is haunted in his dreams by deceased child murderer Freddy Krueger, who is out to possess him in order to continue his reign of terror in the real world.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="A Nightmare on Elm Street The Dream Child (1989)">
     <display-name>A Nightmare on Elm Street The Dream Child (1989)</display-name>
@@ -609,12 +609,12 @@
     <category>Other</category>
   </programme>
   <channel id="Air Bud World Pup (2001)">
-    <display-name>Air Bud World Pup (2001)</display-name>
+    <display-name>Air Bud: World Pup (2001)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Air Bud World Pup (2001)">
-    <title>Air Bud World Pup (2001)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Air Bud: World Pup (2001)</title>
+    <desc>In this second heartwarming and hilarious sequel to the popular favorite, Air Bud masters two new starring roles: soccer player and fatherhood. Loaded with laughs and cool soccer action, Buddy teams up alongside U.S. women's soccer greats.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Air Buddies (2006)">
     <display-name>Air Buddies (2006)</display-name>
@@ -985,12 +985,12 @@
     <category>Other</category>
   </programme>
   <channel id="Anthropocene The Human Epoch (2019)">
-    <display-name>Anthropocene The Human Epoch (2019)</display-name>
+    <display-name>Anthropocene: The Human Epoch (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Anthropocene The Human Epoch (2019)">
-    <title>Anthropocene The Human Epoch (2019)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Anthropocene: The Human Epoch (2018)</title>
+    <desc>Documentary on psychedelic potash mines, expansive concrete seawalls, mammoth industrial machines, and other examples of humanity’s massive, destructive reengineering of the planet.</desc>
+    <category>Documentary</category>
   </programme>
   <channel id="Antz (1998)">
     <display-name>Antz (1998)</display-name>
@@ -1037,8 +1037,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Appropriate Behavior (2015)">
     <title>Appropriate Behavior (2015)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Shirin is struggling to become an ideal Persian daughter, politically correct bisexual and hip young Brooklynite but fails miserably in her attempt at all identities.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Aquaman (2018)">
     <display-name>Aquaman (2018)</display-name>
@@ -1841,11 +1841,11 @@
     <category>Other</category>
   </programme>
   <channel id="Blade Runner Director's Cut (1982)">
-    <display-name>Blade Runner Director's Cut (1982)</display-name>
+    <display-name>Blade Runner (1982)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Blade Runner Director's Cut (1982)">
-    <title>Blade Runner Director's Cut (1982)</title>
-    <desc>No description available.</desc>
+    <title>Blade Runner (1982)</title>
+    <desc>In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.</desc>
     <category>Other</category>
   </programme>
   <channel id="Blade Trinity (2004)">
@@ -1901,8 +1901,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Blue Is the Warmest Color (2013)">
     <title>Blue Is the Warmest Color (2013)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire, to assert herself as a woman and as an adult. In front of others, Adele grows, seeks herself, loses herself, finds herself.</desc>
+    <category>Romance</category>
   </programme>
   <channel id="Blue Streak (1999)">
     <display-name>Blue Streak (1999)</display-name>
@@ -1969,12 +1969,12 @@
     <category>Other</category>
   </programme>
   <channel id="Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)">
-    <display-name>Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)</display-name>
+    <display-name>Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)">
-    <title>Borat Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006)</title>
+    <desc>Kazakh journalist Borat Sagdiyev travels to America to make a documentary. As he zigzags across the nation, Borat meets real people in real situations with hysterical consequences. His backwards behavior generates strong reactions around him exposing prejudices and hypocrisies in American culture.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Borat Subsequent Moviefilm (2020)">
     <display-name>Borat Subsequent Moviefilm (2020)</display-name>
@@ -2005,8 +2005,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Bound by Honor (1993)">
     <title>Bound by Honor (1993)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Based on the true life experiences of poet Jimmy Santiago Baca, the film focuses on half-brothers Paco and Cruz, and their bi-racial cousin Miklo. It opens in 1972, as the three are members of an East L.A. gang known as the 'Vatos Locos', and the story focuses on how a violent crime and the influence of narcotics alter their lives. Miklo is incarcerated and sent to San Quentin, where he makes a 'home' for himself. Cruz becomes an exceptional artist, but a heroin addiction overcomes him with tragic results. Paco becomes a cop and an enemy to his 'carnal', Miklo.</desc>
+    <category>Crime</category>
   </programme>
   <channel id="Boyhood (2014)">
     <display-name>Boyhood (2014)</display-name>
@@ -2361,12 +2361,12 @@
     <category>Other</category>
   </programme>
   <channel id="Casablanca (1942)">
-    <display-name>Casablanca (1942)</display-name>
+    <display-name>Casablanca (1943)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Casablanca (1942)">
-    <title>Casablanca (1942)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Casablanca (1943)</title>
+    <desc>In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Casino (1995)">
     <display-name>Casino (1995)</display-name>
@@ -2401,12 +2401,12 @@
     <category>Other</category>
   </programme>
   <channel id="Catfight (2017)">
-    <display-name>Catfight (2017)</display-name>
+    <display-name>Catfight (2016)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Catfight (2017)">
-    <title>Catfight (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Catfight (2016)</title>
+    <desc>The rivalry between two former college friends comes to a head when they both attend the same glamorous event.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Cats (2019)">
     <display-name>Cats (2019)</display-name>
@@ -2489,12 +2489,12 @@
     <category>Other</category>
   </programme>
   <channel id="Che Part Two (2009)">
-    <display-name>Che Part Two (2009)</display-name>
+    <display-name>Che: Part Two (2008)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Che Part Two (2009)">
-    <title>Che Part Two (2009)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Che: Part Two (2008)</title>
+    <desc>Seven years after his triumph in Cuba, Che winds up in Bolivia, where he tries to ignite the same revolutionary fires as before.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Chef (2014)">
     <display-name>Chef (2014)</display-name>
@@ -2625,12 +2625,12 @@
     <category>Other</category>
   </programme>
   <channel id="Citizen Toxie The Toxic Avenger IV (2001)">
-    <display-name>Citizen Toxie The Toxic Avenger IV (2001)</display-name>
+    <display-name>Citizen Toxie: The Toxic Avenger IV (2001)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Citizen Toxie The Toxic Avenger IV (2001)">
-    <title>Citizen Toxie The Toxic Avenger IV (2001)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Citizen Toxie: The Toxic Avenger IV (2001)</title>
+    <desc>A horrific explosion creates a dimensional portal between Tromaville and its dimensional mirror image, Amortville. While the Toxie is trapped in the mirror dimension, Tromaville comes under the control of his evil doppelganger, the Noxious Offender.</desc>
+    <category>Action</category>
   </programme>
   <channel id="City of Angels (1998)">
     <display-name>City of Angels (1998)</display-name>
@@ -2653,8 +2653,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="City of God (2002)">
     <title>City of God (2002)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood, while José “Zé” Pequeno is an ambitious drug dealer diving into a dangerous life of crime.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Clash of the Titans (1981)">
     <display-name>Clash of the Titans (1981)</display-name>
@@ -2929,12 +2929,12 @@
     <category>Other</category>
   </programme>
   <channel id="Cube 2 Hypercube (2002)">
-    <display-name>Cube 2 Hypercube (2002)</display-name>
+    <display-name>Cube 2: Hypercube (2002)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Cube 2 Hypercube (2002)">
-    <title>Cube 2 Hypercube (2002)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Cube 2: Hypercube (2002)</title>
+    <desc>Eight strangers awaken with no memory, in a puzzling cube-shaped room where the laws of physics do not always apply.</desc>
+    <category>Thriller</category>
   </programme>
   <channel id="Cube Zero (2004)">
     <display-name>Cube Zero (2004)</display-name>
@@ -3121,12 +3121,12 @@
     <category>Other</category>
   </programme>
   <channel id="Deadpool 2 - Super Duper Cut (2018)">
-    <display-name>Deadpool 2 - Super Duper Cut (2018)</display-name>
+    <display-name>Deadpool 2 (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Deadpool 2 - Super Duper Cut (2018)">
-    <title>Deadpool 2 - Super Duper Cut (2018)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Deadpool 2 (2018)</title>
+    <desc>Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Death Becomes Her (1992)">
     <display-name>Death Becomes Her (1992)</display-name>
@@ -3177,12 +3177,12 @@
     <category>Other</category>
   </programme>
   <channel id="Death Race Beyond Anarchy (2018)">
-    <display-name>Death Race Beyond Anarchy (2018)</display-name>
+    <display-name>Death Race: Beyond Anarchy (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Death Race Beyond Anarchy (2018)">
-    <title>Death Race Beyond Anarchy (2018)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Death Race: Beyond Anarchy (2018)</title>
+    <desc>Black Ops specialist Connor Gibson infiltrates a maximum security prison to take down legendary driver Frankenstein in a violent and brutal car race.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Death Race Inferno (2013)">
     <display-name>Death Race Inferno (2013)</display-name>
@@ -3297,12 +3297,12 @@
     <category>Other</category>
   </programme>
   <channel id="Die Hard 2 Die Harder (1990)">
-    <display-name>Die Hard 2 Die Harder (1990)</display-name>
+    <display-name>Die Hard 2 (1990)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Die Hard 2 Die Harder (1990)">
-    <title>Die Hard 2 Die Harder (1990)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Die Hard 2 (1990)</title>
+    <desc>One year after his heroics in Los Angeles, John McClane is an off-duty cop who is the wrong guy in the wrong place at the wrong time. On a snowy Christmas Eve, as he waits for his wife's plane to land at Washington Dulles International Airport, terrorists take over the air traffic control system in a plot to free a South American army general and drug smuggler being flown into the US to face drug charges. It's now up to McClane to take on the terrorists, while coping with an inept airport police chief, an uncooperative anti-terrorist squad, and the life of his wife and everyone else trapped in planes circling overhead.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Die Hard with a Vengeance (1995)">
     <display-name>Die Hard with a Vengeance (1995)</display-name>
@@ -4493,8 +4493,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Friday the 13th Part III (1982)">
     <title>Friday the 13th Part III (1982)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>An idyllic summer turns into a nightmare of unspeakable terror for yet another group of naïve friends. Ignoring Camp Crystal Lake's bloody legacy, one by one they fall victim to the maniacal Jason, who stalks them at every turn...</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Friday the 13th Part VI Jason Lives (1986)">
     <display-name>Friday the 13th Part VI Jason Lives (1986)</display-name>
@@ -4505,12 +4505,12 @@
     <category>Other</category>
   </programme>
   <channel id="Friday the 13th Part VII The New Blood (1988)">
-    <display-name>Friday the 13th Part VII The New Blood (1988)</display-name>
+    <display-name>Friday the 13th Part VII - The New Blood (1988)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Friday the 13th Part VII The New Blood (1988)">
-    <title>Friday the 13th Part VII The New Blood (1988)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Friday the 13th Part VII - The New Blood (1988)</title>
+    <desc>Tina Shepard, a telekinetic teenage girl, accidentally unchains Jason from his watery grave, allowing him to go on another killing spree in the area.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Friday the 13th Part VIII Jason Takes Manhattan (1989)">
     <display-name>Friday the 13th Part VIII Jason Takes Manhattan (1989)</display-name>
@@ -4957,8 +4957,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Godzilla vs. Mothra (1992)">
     <title>Godzilla vs. Mothra (1992)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Mothra's dark counterpart, Battra, emerges to eliminate humanity on behalf of the Earth. Two tiny fairies called the Cosmos offer their help by calling Mothra to battle the creature. Unfortunately a meteorite has awoken a hibernating Godzilla as a three way battle for the Earth begins.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Godzilla vs. SpaceGodzilla (1994)">
     <display-name>Godzilla vs. SpaceGodzilla (1994)</display-name>
@@ -5005,8 +5005,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Gone in Sixty Seconds (2000)">
     <title>Gone in Sixty Seconds (2000)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Ex-car thief Randall Raines is forced out of retirement to save his brother Kip after a boost gone wrong. With the help of allies old and new, they race to meet the demands of notorious crime boss Raymond Calitri as the police are in hot pursuit.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Gone with the Wind (1939)">
     <display-name>Gone with the Wind (1939)</display-name>
@@ -5181,8 +5181,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Guns Akimbo (2020)">
     <title>Guns Akimbo (2020)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>An ordinary guy suddenly finds himself forced to fight a gladiator-like battle for a dark website that streams the violence for viewers. In order to survive and rescue his kidnapped ex-girlfriend, he must battle Nix, a heavily armed and much more experienced fighter.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Hail, Caesar (2016)">
     <display-name>Hail, Caesar (2016)</display-name>
@@ -5549,8 +5549,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Harry Potter and the Philosopher's Stone (2001)">
     <title>Harry Potter and the Philosopher's Stone (2001)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Harry Potter has lived under the stairs at his aunt and uncle's house his whole life. But on his 11th birthday, he learns he's a powerful wizard—with a place waiting for him at the Hogwarts School of Witchcraft and Wizardry. As he learns to harness his newfound powers with the help of the school's kindly headmaster, Harry uncovers the truth about his parents' deaths—and about the villain who's to blame.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="Harry Potter and the Prisoner of Azkaban (2004)">
     <display-name>Harry Potter and the Prisoner of Azkaban (2004)</display-name>
@@ -5665,12 +5665,12 @@
     <category>Other</category>
   </programme>
   <channel id="Hey Arnold! The Jungle Movie (2017)">
-    <display-name>Hey Arnold! The Jungle Movie (2017)</display-name>
+    <display-name>Hey Arnold! The Jungle Movie (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Hey Arnold! The Jungle Movie (2017)">
-    <title>Hey Arnold! The Jungle Movie (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Hey Arnold! The Jungle Movie (2018)</title>
+    <desc>When their trip to San Lorenzo takes a turn for the worst, Arnold and his classmate’s only hope of getting home is retracing the dangerous path that led to Arnold's parents' disappearance.</desc>
+    <category>Family</category>
   </programme>
   <channel id="Hidden Figures (2016)">
     <display-name>Hidden Figures (2016)</display-name>
@@ -6137,12 +6137,12 @@
     <category>Other</category>
   </programme>
   <channel id="If I Can’t Have Love, I Want Power (2021)">
-    <display-name>If I Can’t Have Love, I Want Power (2021)</display-name>
+    <display-name>If I Can't Have Love, I Want Power (2021)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="If I Can’t Have Love, I Want Power (2021)">
-    <title>If I Can’t Have Love, I Want Power (2021)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>If I Can't Have Love, I Want Power (2021)</title>
+    <desc>Featuring music from her fourth studio album produced by Trent Reznor and Atticus Ross, this evocative film experience stars Halsey as the young and pregnant Queen Lila, who wrestles with the manipulative chokehold of love.</desc>
+    <category>Music</category>
   </programme>
   <channel id="Imagine Me &amp; You (2005)">
     <display-name>Imagine Me &amp; You (2005)</display-name>
@@ -6261,8 +6261,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Inherent Vice (2014)">
     <title>Inherent Vice (2014)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>In Los Angeles at the turn of the 1970s, drug-fueled detective Larry 'Doc' Sportello investigates the disappearance of an ex-girlfriend.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Inside Llewyn Davis (2013)">
     <display-name>Inside Llewyn Davis (2013)</display-name>
@@ -6557,8 +6557,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Jeepers Creepers 3 (2017)">
     <title>Jeepers Creepers 3 (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Taking place on the last day of the Creeper’s twenty-three-day feeding frenzy, as the skeptical Sergeant Tubbs teams up with a task force hellbent on destroying the Creeper for good. The Creeper fights back in gory glory as its enemies grow closer than ever before to learning the secret of its dark origins.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Jennifer's Body (2009)">
     <display-name>Jennifer's Body (2009)</display-name>
@@ -6729,12 +6729,12 @@
     <category>Other</category>
   </programme>
   <channel id="Jurassic Park II The Lost World (1997)">
-    <display-name>Jurassic Park II The Lost World (1997)</display-name>
+    <display-name>The Lost World: Jurassic Park (1997)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Jurassic Park II The Lost World (1997)">
-    <title>Jurassic Park II The Lost World (1997)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Lost World: Jurassic Park (1997)</title>
+    <desc>Four years after Jurassic Park's genetically bred dinosaurs ran amok, multimillionaire John Hammond shocks chaos theorist Ian Malcolm by revealing that he has been breeding more beasties at a secret location. Malcolm, his paleontologist ladylove and a wildlife videographer join an expedition to document the lethal lizards' natural behavior in this action-packed thriller.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="Jurassic Park III (2001)">
     <display-name>Jurassic Park III (2001)</display-name>
@@ -7017,12 +7017,12 @@
     <category>Other</category>
   </programme>
   <channel id="Lady and the Tramp II Scamp's Adventure (2001)">
-    <display-name>Lady and the Tramp II Scamp's Adventure (2001)</display-name>
+    <display-name>Lady and the Tramp II: Scamp's Adventure (2001)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Lady and the Tramp II Scamp's Adventure (2001)">
-    <title>Lady and the Tramp II Scamp's Adventure (2001)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Lady and the Tramp II: Scamp's Adventure (2001)</title>
+    <desc>Lady and Tramp's mischievous pup, Scamp, gets fed up with rules and restrictions imposed on him by life in a family, and longs for a wild and free lifestyle. He runs away from home and into the streets where he joins a pack of stray dogs known as the 'Junkyard Dogs.' Buster, the pack's leader, takes an instant disliking to the 'house-dog' and considers him a rival. Angel, a junkyard pup Scamp's age, longs for the safety and comfort of life in a family and the two become instant companions. Will Scamp choose the wild and free life of a stray or the unconditional love of his family?</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Leaving Las Vegas (1995)">
     <display-name>Leaving Las Vegas (1995)</display-name>
@@ -7073,12 +7073,12 @@
     <category>Other</category>
   </programme>
   <channel id="Lego Scooby-Doo! Haunted Hollywood (2016)">
-    <display-name>Lego Scooby-Doo! Haunted Hollywood (2016)</display-name>
+    <display-name>LEGO Scooby-Doo! Haunted Hollywood (2016)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Lego Scooby-Doo! Haunted Hollywood (2016)">
-    <title>Lego Scooby-Doo! Haunted Hollywood (2016)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>LEGO Scooby-Doo! Haunted Hollywood (2016)</title>
+    <desc>The gang find themselves in a tinsel-town twist! While on a VIP tour of the legendary Brickton Studios, Scooby and friends get a first-hand experience of the rumored hauntings when classic movie monsters drop in for a creepy casting call.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Leila (1999) 1080p Blu-ray Remux AVC DTS-HD MA 3.0 - KRaLiMaRKo">
     <display-name>Leila (1999) 1080p Blu-ray Remux AVC DTS-HD MA 3.0 - KRaLiMaRKo</display-name>
@@ -7093,8 +7093,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Leprechaun (1993)">
     <title>Leprechaun (1993)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>A demonic leprechaun terrorizes a group of young people whom he believes stole his gold.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Leprechaun 2 (1994)">
     <display-name>Leprechaun 2 (1994)</display-name>
@@ -7121,12 +7121,12 @@
     <category>Other</category>
   </programme>
   <channel id="Leprechaun Back 2 tha Hood (2003)">
-    <display-name>Leprechaun Back 2 tha Hood (2003)</display-name>
+    <display-name>Leprechaun: Back 2 tha Hood (2003)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Leprechaun Back 2 tha Hood (2003)">
-    <title>Leprechaun Back 2 tha Hood (2003)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Leprechaun: Back 2 tha Hood (2003)</title>
+    <desc>When Emily Woodrow and her friends happen on a treasure chest full of gold coins, they fail to to heed the warnings of a wise old psychic who had foretold that they would encounter trouble with a very nasty and protective Leprechaun.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Leprechaun Origins (2014)">
     <display-name>Leprechaun Origins (2014)</display-name>
@@ -7149,8 +7149,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Leprechaun in the Hood (2000)">
     <title>Leprechaun in the Hood (2000)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>When Butch, Postmaster P, and Stray Bullet loot the local hip-hop mogul's studio to fund their demo album, the threesome unwittingly ends up with the secret of Mack Daddy's success: a magical flute. Their gigs instantly turn golden but a blood-thristy Leprechaun and an angry Mack Daddy are hot on their trail, leaving a wake of destruction tainted by politically incorrect limericks.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Les Misérables (2012)">
     <display-name>Les Misérables (2012)</display-name>
@@ -7681,12 +7681,12 @@
     <category>Other</category>
   </programme>
   <channel id="Mary Shelley (2018)">
-    <display-name>Mary Shelley (2018)</display-name>
+    <display-name>Mary Shelley (2017)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Mary Shelley (2018)">
-    <title>Mary Shelley (2018)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Mary Shelley (2017)</title>
+    <desc>The love affair between poet Percy Shelley and Mary Wollstonecraft Godwin resulted in the creation of an immortal novel, “Frankenstein; or, The Modern Prometheus.”</desc>
+    <category>Romance</category>
   </programme>
   <channel id="Master and Commander The Far Side of the World (2003)">
     <display-name>Master and Commander The Far Side of the World (2003)</display-name>
@@ -7853,8 +7853,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Metropolitan (1990)">
     <title>Metropolitan (1990)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>A radical student is adopted by a group of young New Yorkers, serves as a catalyst to alter his and their lives. Gathering in a Manhattan apartment, the group of friends meet to discuss social mobility, Fourier's socialism and play bridge in their cocoon of upper-class society - until they are joined by a man with a critical view of their way of life.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Mickey 17 (2025) 1080p BluRay DD+5.1 Atmos x264-HiDt">
     <display-name>Mickey 17 (2025) 1080p BluRay DD+5.1 Atmos x264-HiDt</display-name>
@@ -7929,12 +7929,12 @@
     <category>Other</category>
   </programme>
   <channel id="Miss Congeniality 2 Armed and Fabulous (2005)">
-    <display-name>Miss Congeniality 2 Armed and Fabulous (2005)</display-name>
+    <display-name>Miss Congeniality 2: Armed and Fabulous (2005)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Miss Congeniality 2 Armed and Fabulous (2005)">
-    <title>Miss Congeniality 2 Armed and Fabulous (2005)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Miss Congeniality 2: Armed and Fabulous (2005)</title>
+    <desc>After her triumph at the Miss United States pageant, FBI agent Gracie Hart becomes an overnight sensation -- and the new 'face of the FBI'. But it's time to spring into action again when the pageant's winner, Cheryl, and emcee, Stan, are abducted.</desc>
+    <category>Action</category>
   </programme>
   <channel id="Mission Impossible (1996)">
     <display-name>Mission Impossible (1996)</display-name>
@@ -8241,12 +8241,12 @@
     <category>Other</category>
   </programme>
   <channel id="Naked Gun 33⅓ The Final Insult (1994)">
-    <display-name>Naked Gun 33⅓ The Final Insult (1994)</display-name>
+    <display-name>Naked Gun 33⅓: The Final Insult (1994)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Naked Gun 33⅓ The Final Insult (1994)">
-    <title>Naked Gun 33⅓ The Final Insult (1994)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Naked Gun 33⅓: The Final Insult (1994)</title>
+    <desc>Frank Drebin is persuaded out of retirement to go undercover in a state prison. There he has to find out what top terrorist, Rocco, has planned for when he escapes. Adding to his problems, Frank's wife, Jane, is desperate for a baby.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Nanny McPhee (2005)">
     <display-name>Nanny McPhee (2005)</display-name>
@@ -8393,12 +8393,12 @@
     <category>Other</category>
   </programme>
   <channel id="Nine 1 2 Weeks (1986)">
-    <display-name>Nine 1 2 Weeks (1986)</display-name>
+    <display-name>Nine 1/2 Weeks (1986)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Nine 1 2 Weeks (1986)">
-    <title>Nine 1 2 Weeks (1986)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Nine 1/2 Weeks (1986)</title>
+    <desc>An erotic story about a woman, the assistant of an art gallery, who gets involved in an impersonal affair with a man. She barely knows about his life, only about the sex games they play, so the relationship begins to get complicated.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="No Country for Old Men (2007)">
     <display-name>No Country for Old Men (2007)</display-name>
@@ -8601,12 +8601,12 @@
     <category>Other</category>
   </programme>
   <channel id="Once Upon a Time… in Hollywood (2019)">
-    <display-name>Once Upon a Time… in Hollywood (2019)</display-name>
+    <display-name>Once Upon a Time... in Hollywood (2019)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Once Upon a Time… in Hollywood (2019)">
-    <title>Once Upon a Time… in Hollywood (2019)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Once Upon a Time... in Hollywood (2019)</title>
+    <desc>Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="One Cut of the Dead (2017)">
     <display-name>One Cut of the Dead (2017)</display-name>
@@ -8741,8 +8741,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Pan's Labyrinth (2006)">
     <title>Pan's Labyrinth (2006)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.</desc>
+    <category>Fantasy</category>
   </programme>
   <channel id="Pandora (2016)">
     <display-name>Pandora (2016)</display-name>
@@ -9041,12 +9041,12 @@
     <category>Other</category>
   </programme>
   <channel id="Pocahontas II Journey to a New World (1998)">
-    <display-name>Pocahontas II Journey to a New World (1998)</display-name>
+    <display-name>Pocahontas II: Journey to a New World (1998)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Pocahontas II Journey to a New World (1998)">
-    <title>Pocahontas II Journey to a New World (1998)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Pocahontas II: Journey to a New World (1998)</title>
+    <desc>When news of John Smith's death reaches America, Pocahontas is devastated. She sets off to London with John Rolfe, to meet with the King of England on a diplomatic mission: to create peace and respect between the two great lands. However, Governor Ratcliffe is still around; he wants to return to Jamestown and take over. He will stop at nothing to discredit the young princess.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Pokémon Detective Pikachu (2019)">
     <display-name>Pokémon Detective Pikachu (2019)</display-name>
@@ -9097,12 +9097,12 @@
     <category>Other</category>
   </programme>
   <channel id="Porky's 3 Revenge (1985)">
-    <display-name>Porky's 3 Revenge (1985)</display-name>
+    <display-name>Porky's Revenge (1985)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Porky's 3 Revenge (1985)">
-    <title>Porky's 3 Revenge (1985)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Porky's Revenge (1985)</title>
+    <desc>As graduation nears for the class of 1955 at Angel Beach High, the gang once again faces off against their old enemy, Porky, who wants them to throw the school's championship basketball game since he has bet on the opposing team.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Porky's II The Next Day (1983)">
     <display-name>Porky's II The Next Day (1983)</display-name>
@@ -9117,8 +9117,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Portrait of a Lady on Fire (2019)">
     <title>Portrait of a Lady on Fire (2019)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Power Rangers (2017)">
     <display-name>Power Rangers (2017)</display-name>
@@ -9205,8 +9205,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Professor Marston and the Wonder Women (2017)">
     <title>Professor Marston and the Wonder Women (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>The unconventional life of Dr. William Marston, the Harvard psychologist and inventor who helped invent the modern lie detector test and co-created Wonder Woman in 1941.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Project Power (2020)">
     <display-name>Project Power (2020)</display-name>
@@ -9257,11 +9257,11 @@
     <category>Other</category>
   </programme>
   <channel id="Psycho Goreman (2021)">
-    <display-name>Psycho Goreman (2021)</display-name>
+    <display-name>PG: Psycho Goreman (2020)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Psycho Goreman (2021)">
-    <title>Psycho Goreman (2021)</title>
-    <desc>No description available.</desc>
+    <title>PG: Psycho Goreman (2020)</title>
+    <desc>Siblings Mimi and Luke unwittingly resurrect an ancient alien overlord. Using a magical amulet, they force the monster to obey their childish whims, and accidentally attract a rogues’ gallery of intergalactic assassins to small-town suburbia.</desc>
     <category>Other</category>
   </programme>
   <channel id="Psychokinesis (2018)">
@@ -9729,20 +9729,20 @@
     <category>Other</category>
   </programme>
   <channel id="Return of the Living Dead 3 (1993)">
-    <display-name>Return of the Living Dead 3 (1993)</display-name>
+    <display-name>Return of the Living Dead III (1993)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Return of the Living Dead 3 (1993)">
-    <title>Return of the Living Dead 3 (1993)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Return of the Living Dead III (1993)</title>
+    <desc>Having recently witnessed the horrific results of a top secret project to bring the dead back to life, a distraught teenager performs the operation on his girlfriend after she's killed in a motorcycle accident.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Return of the Living Dead Part II (1988)">
     <display-name>Return of the Living Dead Part II (1988)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Return of the Living Dead Part II (1988)">
     <title>Return of the Living Dead Part II (1988)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>A group of kids discover one of the drums containing a rotting corpse and release the 2-4-5 Trioxin gas into the air, causing the dead to once again rise from the grave and seek out brains.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="Return to Never Land (2002)">
     <display-name>Return to Never Land (2002)</display-name>
@@ -9829,8 +9829,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Roald Dahl's The Witches (2020)">
     <title>Roald Dahl's The Witches (2020)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Robin Hood (1973)">
     <display-name>Robin Hood (1973)</display-name>
@@ -9989,8 +9989,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Rosencrantz &amp; Guildenstern Are Dead (1991)">
     <title>Rosencrantz &amp; Guildenstern Are Dead (1991)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Rosencrantz and Guildenstern, minor characters from the play 'Hamlet', find themselves on the road to Elsinore Castle at the behest of the King of Denmark. The duo encounter a band of players before arriving to find that they are needed to try to discern what troubles the prince Hamlet. Meanwhile, they ponder the meaning of their existence.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Rubber (2010)">
     <display-name>Rubber (2010)</display-name>
@@ -10045,8 +10045,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Rushmore (1998)">
     <title>Rushmore (1998)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Ruthless People (1986)">
     <display-name>Ruthless People (1986)</display-name>
@@ -10273,12 +10273,12 @@
     <category>Other</category>
   </programme>
   <channel id="Schindlers List (1993)">
-    <display-name>Schindlers List (1993)</display-name>
+    <display-name>Schindler's List (1993)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Schindlers List (1993)">
-    <title>Schindlers List (1993)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Schindler's List (1993)</title>
+    <desc>The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Scoob! (2020)">
     <display-name>Scoob! (2020)</display-name>
@@ -10337,12 +10337,12 @@
     <category>Other</category>
   </programme>
   <channel id="Scooby-Doo! &amp; Batman The Brave and the Bold (2018)">
-    <display-name>Scooby-Doo! &amp; Batman The Brave and the Bold (2018)</display-name>
+    <display-name>Scooby-Doo! &amp; Batman: The Brave and the Bold (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! &amp; Batman The Brave and the Bold (2018)">
-    <title>Scooby-Doo! &amp; Batman The Brave and the Bold (2018)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Scooby-Doo! &amp; Batman: The Brave and the Bold (2018)</title>
+    <desc>Scooby-Doo and the Mystery Inc. gang meet up with Batman and other friends to defeat evil villains and save the day.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Scooby-Doo! Adventures The Mystery Map (2013)">
     <display-name>Scooby-Doo! Adventures The Mystery Map (2013)</display-name>
@@ -10389,8 +10389,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! Meets the Boo Brothers (1987)">
     <title>Scooby-Doo! Meets the Boo Brothers (1987)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>After the death of Shaggy's Uncle Beaureguard, he, Scooby and Scrappy arrive at the late uncle's Southern plantation to collect the inheritance. But as soon as they arrive, they find it is haunted by the ghost of a Confederate soldier. With this spook on their tails while they solve riddles in search of the inheritance, they seek help from the Boo Brothers, a trio of ghost-exterminators to help catch this nasty ghoul.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Scooby-Doo! Moon Monster Madness (2015)">
     <display-name>Scooby-Doo! Moon Monster Madness (2015)</display-name>
@@ -10413,8 +10413,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! Return to Zombie Island (2019)">
     <title>Scooby-Doo! Return to Zombie Island (2019)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Scooby-Doo and his pals win an all-expense paid vacation and embark on a trip of a lifetime to a tropical paradise. Their destination however, turns out to be Zombie Island. As soon as they arrive, they realize the place looks strangely familiar and is reminiscent of a trip they took years ago, in which they became wrapped up in a mystery involving zombies. The gang soon learns that their trip to paradise comes with a price when the zombies re-emerge and attack their hotel. Will Scooby-Doo and the Mystery Inc. gang finally solve the mystery behind Zombie Island?</desc>
+    <category>Fantasy</category>
   </programme>
   <channel id="Scooby-Doo! Shaggy's Showdown (2017)">
     <display-name>Scooby-Doo! Shaggy's Showdown (2017)</display-name>
@@ -10481,20 +10481,20 @@
     <category>Other</category>
   </programme>
   <channel id="Scooby-Doo! and the Cyber Chase (2001)">
-    <display-name>Scooby-Doo! and the Cyber Chase (2001)</display-name>
+    <display-name>Scooby-Doo and the Cyber Chase (2001)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Cyber Chase (2001)">
-    <title>Scooby-Doo! and the Cyber Chase (2001)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Scooby-Doo and the Cyber Chase (2001)</title>
+    <desc>When Scooby and the gang get trapped in a video game created for the gang, they must fight against the 'Phantom Virus.' To escape the game they must go level by level and defeat the game once and for all.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Scooby-Doo! and the Goblin King (2008)">
     <display-name>Scooby-Doo! and the Goblin King (2008)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Goblin King (2008)">
     <title>Scooby-Doo! and the Goblin King (2008)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Scooby-Doo and Shaggy must go into the underworld ruled by The Goblin King in order to stop a mortal named The Amazing Krudsky who wants power and is a threat to their pals: Fred, Velma, and Daphne.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="Scooby-Doo! and the Gourmet Ghost (2018)">
     <display-name>Scooby-Doo! and the Gourmet Ghost (2018)</display-name>
@@ -10517,40 +10517,40 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Loch Ness Monster (2004)">
     <title>Scooby-Doo! and the Loch Ness Monster (2004)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>While the gang travel to Scotland to visit Daphne's cousin and witness the annual Highland Games, they find themselves terrorized by the legendary Loch Ness Monster.</desc>
+    <category>Family</category>
   </programme>
   <channel id="Scooby-Doo! and the Monster of Mexico (2003)">
     <display-name>Scooby-Doo! and the Monster of Mexico (2003)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Monster of Mexico (2003)">
     <title>Scooby-Doo! and the Monster of Mexico (2003)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>A friend of Fred's, Alejo Otero, invites the Scooby gang to Veracruz, Mexico. There they find a monster, El Chupacabra, terrorizing the town.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Scooby-Doo! and the Reluctant Werewolf (1988)">
     <display-name>Scooby-Doo! and the Reluctant Werewolf (1988)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Reluctant Werewolf (1988)">
     <title>Scooby-Doo! and the Reluctant Werewolf (1988)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Shaggy is turned into a werewolf, and it's up to Scooby, Scrappy and Shaggy's girlfriend to help him win a race against other monsters, and become human again.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Scooby-Doo! and the Samurai Sword (2009)">
     <display-name>Scooby-Doo! and the Samurai Sword (2009)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Samurai Sword (2009)">
     <title>Scooby-Doo! and the Samurai Sword (2009)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>The Mystery Inc. gang takes a trip to Japan and finds themselves circling Asia and the Pacific in a treasure hunt, racing against the vengeful Black Samurai and his Ninja warriors to find the legendary Sword of Fate, an ancientblade fabled to possess extraordinary supernaturalpowers.</desc>
+    <category>Family</category>
   </programme>
   <channel id="Scooby-Doo! and the Witch's Ghost (1999)">
     <display-name>Scooby-Doo! and the Witch's Ghost (1999)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Scooby-Doo! and the Witch's Ghost (1999)">
     <title>Scooby-Doo! and the Witch's Ghost (1999)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Scooby-Doo and the Mystery Gang visit Oakhaven, Massachusetts to seek strange goings on involving a famous horror novelist and his ancestor who is rumored to have been a witch.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Scooby-Doo! in Where's My Mummy (2005)">
     <display-name>Scooby-Doo! in Where's My Mummy (2005)</display-name>
@@ -11277,8 +11277,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Spring Breakers (2013)">
     <title>Spring Breakers (2013)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>After four college girls rob a restaurant to fund their spring break in Florida, they get entangled with a weird dude with his own criminal agenda.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Sputnik (2020)">
     <display-name>Sputnik (2020)</display-name>
@@ -11305,12 +11305,12 @@
     <category>Other</category>
   </programme>
   <channel id="Spy Kids 3-D Game Over (2003)">
-    <display-name>Spy Kids 3-D Game Over (2003)</display-name>
+    <display-name>Spy Kids 3-D: Game Over (2003)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Spy Kids 3-D Game Over (2003)">
-    <title>Spy Kids 3-D Game Over (2003)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Spy Kids 3-D: Game Over (2003)</title>
+    <desc>Carmen's caught in a virtual reality game designed by the Kids' new nemesis, the Toymaker. It's up to Juni to save his sister, and ultimately the world.</desc>
+    <category>Family</category>
   </programme>
   <channel id="Stalker (1979)">
     <display-name>Stalker (1979)</display-name>
@@ -11837,8 +11837,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Tell It to the Bees (2019)">
     <title>Tell It to the Bees (2019)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Dr. Jean Markham returns to the town she left as a teenager to take over her late father's medical practice. When a school-yard scuffle lands Charlie in her surgery, she invites him to visit the hives in her garden and tell his secrets to the bees, as she once did. The new friendship between the boy and the bee keeper brings his mother Lydia into Jean's world.</desc>
+    <category>Romance</category>
   </programme>
   <channel id="Tenacious D in The Pick of Destiny (2006)">
     <display-name>Tenacious D in The Pick of Destiny (2006)</display-name>
@@ -12017,12 +12017,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Bad Lieutenant Port of Call - New Orleans (2009)">
-    <display-name>The Bad Lieutenant Port of Call - New Orleans (2009)</display-name>
+    <display-name>Bad Lieutenant: Port of Call New Orleans (2009)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Bad Lieutenant Port of Call - New Orleans (2009)">
-    <title>The Bad Lieutenant Port of Call - New Orleans (2009)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Bad Lieutenant: Port of Call New Orleans (2009)</title>
+    <desc>Terrence McDonagh is a New Orleans Police sergeant, who receives a medal and a promotion to lieutenant for heroism during Hurricane Katrina. Due to his heroic act, McDonagh injures his back and becomes addicted to prescription pain medication. He then finds himself involved with a drug dealer who is suspected of murdering a family of African immigrants.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="The Banker (2020)">
     <display-name>The Banker (2020)</display-name>
@@ -12077,8 +12077,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Blackcoat's Daughter (2017)">
     <title>The Blackcoat's Daughter (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Two young women at a prestigious prep school are assailed by an evil, invisible power when they're stranded over winter break.</desc>
+    <category>Horror</category>
   </programme>
   <channel id="The Blair Witch Project (1999)">
     <display-name>The Blair Witch Project (1999)</display-name>
@@ -12825,12 +12825,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Galapagos Affair Satan Came to Eden (2014)">
-    <display-name>The Galapagos Affair Satan Came to Eden (2014)</display-name>
+    <display-name>The Galapagos Affair: Satan Came to Eden (2014)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Galapagos Affair Satan Came to Eden (2014)">
-    <title>The Galapagos Affair Satan Came to Eden (2014)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Galapagos Affair: Satan Came to Eden (2014)</title>
+    <desc>Darwin meets Hitchcock in this documentary. Directors Dan Geller and Dayna Goldfine have created a parable about the search for paradise, set in the brutal yet alluring landscape of the Galapagos Islands, which interweaves an unsolved 1930s murder mystery with stories of present day Galapagos pioneers. A gripping tale of idealistic dreams gone awry, featuring voice-over performances by Cate Blanchett, Diane Kruger, and Gustaf Skarsgard.</desc>
+    <category>Documentary</category>
   </programme>
   <channel id="The Gentlemen (2020)">
     <display-name>The Gentlemen (2020)</display-name>
@@ -12921,12 +12921,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Green Inferno (2014)">
-    <display-name>The Green Inferno (2014)</display-name>
+    <display-name>The Green Inferno (2013)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Green Inferno (2014)">
-    <title>The Green Inferno (2014)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Green Inferno (2013)</title>
+    <desc>A group of student activists travel from New York City to the Amazon to save the rainforest.  However, once they arrive in this vast green landscape, they soon discover that they are not alone… and that no good deed goes unpunished.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="The Green Knight (2021)">
     <display-name>The Green Knight (2021)</display-name>
@@ -13069,8 +13069,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Holy Mountain (1973)">
     <title>The Holy Mountain (1973)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>The Alchemist assembles together a group of people from all walks of life to represent the planets in the solar system. The occult adept's intention is to put his recruits through strange mystical rites and divest them of their worldly baggage before embarking on a trip to Lotus Island. There they ascend the Holy Mountain to displace the immortal gods who secretly rule the universe.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="The Host (2006)">
     <display-name>The Host (2006)</display-name>
@@ -13205,8 +13205,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Inbetweeners Movie (2011)">
     <title>The Inbetweeners Movie (2011)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>High school graduation just wouldn’t be complete without an un-chaperoned, uninhibited and unforgettable final holiday. At least that’s what Will, Jay, Simon and Neil think when they book a two-week stay on an exotic Greek island. As their dreams of sun-drenched days and booze-filled nights are left hopelessly unfulfilled, the lads fight their way into the party scene with hilariously humiliating results.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="The Incredible Hulk (2008)">
     <display-name>The Incredible Hulk (2008)</display-name>
@@ -13533,16 +13533,16 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Lion King 1½ (2004)">
     <title>The Lion King 1½ (2004)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Timon the meerkat and Pumbaa the warthog are best pals and the unsung heroes of the African savanna. This prequel to the smash Disney animated adventure takes you back -- way back -- before Simba's adventure began. You'll find out all about Timon and Pumbaa and tag along as they search for the perfect home and attempt to raise a rambunctious lion cub.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="The Lion King II Simba's Pride (1998)">
-    <display-name>The Lion King II Simba's Pride (1998)</display-name>
+    <display-name>The Lion King II: Simba's Pride (1998)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Lion King II Simba's Pride (1998)">
-    <title>The Lion King II Simba's Pride (1998)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Lion King II: Simba's Pride (1998)</title>
+    <desc>The circle of life continues for Simba, now fully grown and in his rightful place as the king of Pride Rock. Simba and Nala have given birth to a daughter, Kiara who's as rebellious as her father was. But Kiara drives her parents to distraction when she catches the eye of Kovu, the son of the evil lioness, Zira. Will Kovu steal Kiara's heart?</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="The Little Hours (2017)">
     <display-name>The Little Hours (2017)</display-name>
@@ -13561,12 +13561,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Little Mermaid II Return to the Sea (2000)">
-    <display-name>The Little Mermaid II Return to the Sea (2000)</display-name>
+    <display-name>The Little Mermaid II: Return to the Sea (2000)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Little Mermaid II Return to the Sea (2000)">
-    <title>The Little Mermaid II Return to the Sea (2000)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Little Mermaid II: Return to the Sea (2000)</title>
+    <desc>Set several years after the first film, Ariel and Prince Eric are happily married with a daughter, Melody. In order to protect Melody from the Sea Witch, Morgana, they have not told her about her mermaid heritage. Melody is curious and ventures into the sea, where she meets new friends. But will she become a pawn in Morgana's quest to take control of the ocean from King Triton?</desc>
+    <category>Animation</category>
   </programme>
   <channel id="The Little Shop of Horrors (1960)">
     <display-name>The Little Shop of Horrors (1960)</display-name>
@@ -14393,12 +14393,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Scorpion King Quest for Power (2015)">
-    <display-name>The Scorpion King Quest for Power (2015)</display-name>
+    <display-name>The Scorpion King 4: Quest for Power (2015)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Scorpion King Quest for Power (2015)">
-    <title>The Scorpion King Quest for Power (2015)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Scorpion King 4: Quest for Power (2015)</title>
+    <desc>When he is betrayed by a trusted friend, Mathayus must marshal all his strength and cunning to outwit a formidable opponent who will stop at nothing to unlock a supreme ancient power.</desc>
+    <category>Action</category>
   </programme>
   <channel id="The Secret Garden (1993)">
     <display-name>The Secret Garden (1993)</display-name>
@@ -14581,8 +14581,8 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Taking of Pelham 1 2 3 (2009)">
     <title>The Taking of Pelham 1 2 3 (2009)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <desc>Armed men hijack a New York City subway train, holding the passengers hostage in return for a ransom, and turning an ordinary day's work for dispatcher Walter Garber into a face-off with the mastermind behind the crime.</desc>
+    <category>Crime</category>
   </programme>
   <channel id="The Terminal (2004)">
     <display-name>The Terminal (2004)</display-name>
@@ -14777,12 +14777,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Vast of Night (2020)">
-    <display-name>The Vast of Night (2020)</display-name>
+    <display-name>The Vast of Night (2019)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Vast of Night (2020)">
-    <title>The Vast of Night (2020)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Vast of Night (2019)</title>
+    <desc>At the dawn of the space-race, two radio-obsessed teens discover a strange frequency over the airwaves in what becomes the most important night of their lives and in the history of their small town.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="The Venture Bros. Radiant Is the Blood of the Baboon Heart (2023) 1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-NoMeRcY">
     <display-name>The Venture Bros. Radiant Is the Blood of the Baboon Heart (2023) 1080p.Blu-ray.Remux.AVC.DTS-HD.MA.5.1-NoMeRcY</display-name>
@@ -14897,12 +14897,12 @@
     <category>Other</category>
   </programme>
   <channel id="The Witch Part 1. The Subversion (2018)">
-    <display-name>The Witch Part 1. The Subversion (2018)</display-name>
+    <display-name>The Witch: Part 1. The Subversion (2018)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="The Witch Part 1. The Subversion (2018)">
-    <title>The Witch Part 1. The Subversion (2018)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Witch: Part 1. The Subversion (2018)</title>
+    <desc>Ja-yoon is a high school student who struggles with memory loss after she endured some unknown trauma during her childhood. While trying to uncover the truth, she is unwittingly dragged into a world of crime and finds herself on a journey that will awaken many secrets hidden deep within.</desc>
+    <category>Action</category>
   </programme>
   <channel id="The Witches (1990)">
     <display-name>The Witches (1990)</display-name>
@@ -15177,12 +15177,12 @@
     <category>Other</category>
   </programme>
   <channel id="Toilet - Ek Prem Katha (2017)">
-    <display-name>Toilet - Ek Prem Katha (2017)</display-name>
+    <display-name>Toilet: A Love Story (2017)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Toilet - Ek Prem Katha (2017)">
-    <title>Toilet - Ek Prem Katha (2017)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Toilet: A Love Story (2017)</title>
+    <desc>A woman threatens to leave her husband unless he installs a toilet in their home. To win back her love and respect, he heads out on a journey to fight against the backward society.</desc>
+    <category>Comedy</category>
   </programme>
   <channel id="Tokyo Gore Police (2008) 1080p.BluRay.x264-HCA">
     <display-name>Tokyo Gore Police (2008) 1080p.BluRay.x264-HCA</display-name>
@@ -15201,12 +15201,12 @@
     <category>Other</category>
   </programme>
   <channel id="Tom and Jerry - The Magic Ring (2002)">
-    <display-name>Tom and Jerry - The Magic Ring (2002)</display-name>
+    <display-name>Tom and Jerry: The Magic Ring (2002)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Tom and Jerry - The Magic Ring (2002)">
-    <title>Tom and Jerry - The Magic Ring (2002)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Tom and Jerry: The Magic Ring (2002)</title>
+    <desc>The Oscar-winning cat-and-mouse twosome--Tom and Jerry--returns with another adventure. When Tom and Jerry's irrepressible curiosity gets the best of them, the mysterious magic ring that Tom guards with his life ends up stuck over Jerry's head. Now, Jerry must find a way to free himself of the ring while fleeing Tom, who wants to remove the ring any way he can! Find out if the pair can conjure up a solution in this fur-raising, madcap escapade.</desc>
+    <category>Animation</category>
   </programme>
   <channel id="Tom and Jerry A Nutcracker Tale (2007)">
     <display-name>Tom and Jerry A Nutcracker Tale (2007)</display-name>
@@ -15453,7 +15453,7 @@
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Twelve Monkeys (1995)">
     <title>Twelve Monkeys (1995)</title>
-    <desc>No description available.</desc>
+    <desc>In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly and the son of a famous virus expert who may hold the key to the Army of the 12 Monkeys; thought to be responsible for unleashing the killer disease.</desc>
     <category>Other</category>
   </programme>
   <channel id="Twilight (2008)">
@@ -15513,12 +15513,12 @@
     <category>Other</category>
   </programme>
   <channel id="Under the Same Moon (2008)">
-    <display-name>Under the Same Moon (2008)</display-name>
+    <display-name>Under the Same Moon (2007)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Under the Same Moon (2008)">
-    <title>Under the Same Moon (2008)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Under the Same Moon (2007)</title>
+    <desc>Tells the parallel stories of nine-year-old Carlitos and his mother, Rosario. In the hopes of providing a better life for her son, Rosario works illegally in the U.S. while her mother cares for Carlitos back in Mexico.</desc>
+    <category>Drama</category>
   </programme>
   <channel id="Under the Skin (2014)">
     <display-name>Under the Skin (2014)</display-name>
@@ -15649,12 +15649,12 @@
     <category>Other</category>
   </programme>
   <channel id="VeggieTales The Pirates Who Don't Do Anything (2008)">
-    <display-name>VeggieTales The Pirates Who Don't Do Anything (2008)</display-name>
+    <display-name>The Pirates Who Don't Do Anything: A VeggieTales Movie (2008)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="VeggieTales The Pirates Who Don't Do Anything (2008)">
-    <title>VeggieTales The Pirates Who Don't Do Anything (2008)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>The Pirates Who Don't Do Anything: A VeggieTales Movie (2008)</title>
+    <desc>A boatload of beloved VeggieTales pals embark on a fun and fresh pirate adventure with their trademark humor and silly songs in The Pirates Who Don't Do Anything - A VeggieTales Movie! Larry the Cucumber, Mr. Lunt and Pa Grape find themselves on the ride of their lives when they are mysteriously whisked back to the time when pirates ruled the high seas.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="Venom (2018)">
     <display-name>Venom (2018)</display-name>
@@ -15809,12 +15809,12 @@
     <category>Other</category>
   </programme>
   <channel id="We Steal Secrets The Story of WikiLeaks (2013)">
-    <display-name>We Steal Secrets The Story of WikiLeaks (2013)</display-name>
+    <display-name>We Steal Secrets: The Story of WikiLeaks (2013)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="We Steal Secrets The Story of WikiLeaks (2013)">
-    <title>We Steal Secrets The Story of WikiLeaks (2013)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>We Steal Secrets: The Story of WikiLeaks (2013)</title>
+    <desc>Julian Assange. Bradley Manning. Collateral murder. Cablegate. WikiLeaks. These people and terms have exploded into public consciousness by fundamentally changing the way democratic societies deal with privacy, secrecy, and the right to information, perhaps for generations to come. We Steal Secrets: The Story of WikiLeaks is an extensive examination of all things related to WikiLeaks and the larger global debate over access to information.</desc>
+    <category>Documentary</category>
   </programme>
   <channel id="We Were Soldiers (2002)">
     <display-name>We Were Soldiers (2002)</display-name>
@@ -15993,12 +15993,12 @@
     <category>Other</category>
   </programme>
   <channel id="Winnie the Pooh Springtime with Roo (2004)">
-    <display-name>Winnie the Pooh Springtime with Roo (2004)</display-name>
+    <display-name>Winnie the Pooh: Springtime with Roo (2004)</display-name>
   </channel>
   <programme start="20260502000000 +0000" stop="20260509235959 +0000" channel="Winnie the Pooh Springtime with Roo (2004)">
-    <title>Winnie the Pooh Springtime with Roo (2004)</title>
-    <desc>No description available.</desc>
-    <category>Other</category>
+    <title>Winnie the Pooh: Springtime with Roo (2004)</title>
+    <desc>Spring has sprung, and baby Roo is excited to get out and explore and make new friends. But Rabbit seems preoccupied with spring cleaning, instead of embracing his usual role of playing Easter Bunny. Leave it to Roo to show Rabbit -- through love -- that it's more important who you love and not who's in charge.</desc>
+    <category>Adventure</category>
   </programme>
   <channel id="Wise Guys (1986)">
     <display-name>Wise Guys (1986)</display-name>
