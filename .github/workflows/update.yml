@@ -2,12 +2,13 @@ name: VOD Update Cycle
 
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'     # Runs daily at midnight UTC
+  workflow_dispatch:        # Allows manual trigger
 
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -15,21 +16,31 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'   # Slightly newer recommended
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 lxml
 
       - name: Execute movie.py
         env:
-          OMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}   # ← Fixed
         run: |
-          cd scraper-logic
+          echo "Starting VOD update..."
+          cd scraper-logic || exit 1
           python movie.py
+          echo "VOD update completed."
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
           git add scraper-logic/vod/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update VOD playlist and cache" && git push)
+          
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-update VOD playlist and cache [$(date +'%Y-%m-%d')]"
+            git push
+            echo "Changes committed and pushed."
+          fi
