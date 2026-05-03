@@ -1,9 +1,9 @@
-name: VOD Update Cycle
+name: run-scraper
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'     # Runs daily at midnight UTC
-  workflow_dispatch:        # Allows manual trigger
+    - cron: '0 0 * * *'
 
 jobs:
   run-scraper:
@@ -12,35 +12,36 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          repository: fyough/1234[cite: 1]
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'   # Slightly newer recommended
+          python-version: '3.11'[cite: 1]
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml[cite: 1]
 
-      - name: Execute movie.py
+      - name: Run Scraper
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}   # ← Fixed
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}[cite: 1]
+          BASE_URL: ${{ secrets.BASE_URL }}
         run: |
-          echo "Starting VOD update..."
-          cd scraper-logic || exit 1
-          python movie.py
-          echo "VOD update completed."
+          echo "Starting VOD update..."[cite: 1]
+          cd scraper-logic || exit 1[cite: 1]
+          python movie.py[cite: 1]
+          echo "VOD update completed."[cite: 1]
 
-      - name: Commit and push changes
+      - name: Commit and Push changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          git add scraper-logic/vod/
-          
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Auto-update VOD playlist and cache [$(date +'%Y-%m-%d')]"
-            git push
-            echo "Changes committed and pushed."
-          fi
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"[cite: 1]
+          git config --local user.name "github-actions[bot]"[cite: 1]
+          git add scraper-logic/vod/[cite: 1]
+          if git diff --staged --quiet; then[cite: 1]
+            echo "No changes to commit."[cite: 1]
+          else[cite: 1]
+            git commit -m "Auto-update VOD playlist and cache [$(date +'%Y-%m-%d')]"[cite: 1]
+            git push[cite: 1]
+            echo "Changes committed and pushed."[cite: 1]
+          fi[cite: 1]
