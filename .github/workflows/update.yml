@@ -13,35 +13,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          repository: fyough/1234[cite: 1]
+          repository: fyough/1234 #[cite: 1]
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'[cite: 1]
+          python-version: '3.11' #[cite: 1]
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml[cite: 1]
+        run: pip install requests beautifulsoup4 lxml #[cite: 1]
 
       - name: Run Scraper
         env:
-          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}[cite: 1]
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }} #[cite: 1]
           BASE_URL: ${{ secrets.BASE_URL }}
         run: |
-          echo "Starting VOD update..."[cite: 1]
-          cd scraper-logic || exit 1[cite: 1]
-          python movie.py[cite: 1]
-          echo "VOD update completed."[cite: 1]
+          echo "Starting VOD update..." #[cite: 1]
+          cd scraper-logic || exit 1 #[cite: 1]
+          python movie.py #[cite: 1]
+          echo "VOD update completed." #[cite: 1]
 
       - name: Commit and Push changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"[cite: 1]
-          git config --local user.name "github-actions[bot]"[cite: 1]
-          git add scraper-logic/vod/[cite: 1]
-          if git diff --staged --quiet; then[cite: 1]
-            echo "No changes to commit."[cite: 1]
-          else[cite: 1]
-            git commit -m "Auto-update VOD playlist and cache [$(date +'%Y-%m-%d')]"[cite: 1]
-            git push[cite: 1]
-            echo "Changes committed and pushed."[cite: 1]
-          fi[cite: 1]
+          git config --local user.email "github-actions[bot]@users.noreply.github.com" #[cite: 1]
+          git config --local user.name "github-actions[bot]" #[cite: 1]
+          git add scraper-logic/vod/ #[cite: 1]
+          if git diff --staged --quiet; then #[cite: 1]
+            echo "No changes to commit." #[cite: 1]
+          else #[cite: 1]
+            git commit -m "Auto-update VOD playlist and cache [$(date +'%Y-%m-%d')]" #[cite: 1]
+            git push #[cite: 1]
+            echo "Changes committed and pushed." #[cite: 1]
+          fi #[cite: 1]
