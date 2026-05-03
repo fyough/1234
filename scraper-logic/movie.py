@@ -9,7 +9,7 @@ from urllib.parse import urljoin, unquote
 
 # --- CONFIGURATION ---
 TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
-BASE_URL = "http://23.147.64.113/movies/Other/"
+BASE_URL = os.environ.get("BASE_URL")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 VOD_DIR = os.path.join(SCRIPT_DIR, "vod")
@@ -108,6 +108,10 @@ def generate_vod_assets():
     cache = load_cache()
     m3u_content = ["#EXTM3U"]
     xml_root = ET.Element("tv")
+
+    if not BASE_URL:
+        print("Error: BASE_URL environment variable is not set.")
+        return
 
     try:
         response = requests.get(BASE_URL, timeout=15)
