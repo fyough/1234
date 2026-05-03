@@ -25,6 +25,7 @@ VALID_GENRES = {
 }
 
 TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/w500"
+DEFAULT_POSTER_URL = "https://github.com/fyough/1234/blob/main/scraper-logic/vod/no-image.png?raw=true"
 # ---------------------
 
 def load_cache():
@@ -132,7 +133,8 @@ def generate_vod_assets():
         if isinstance(details, dict):
             title = details.get("title") or details.get("original_title", display_name)
             poster_path = details.get("poster_path")
-            poster = f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else ""
+            # If TMDB has a poster, use it; otherwise, use the default
+            poster = f"{TMDB_IMAGE_BASE}{poster_path}" if poster_path else DEFAULT_POSTER_URL
             
             plot_text = details.get("overview", "").strip()
             if not plot_text:
@@ -147,7 +149,7 @@ def generate_vod_assets():
             genre_list = genres[0] if genres and genres[0] in VALID_GENRES else "Other"
         else:
             title = display_name
-            poster = ""
+            poster = DEFAULT_POSTER_URL
             plot_text = "No description available."
             genre_list = "Other"
             year_val = ""
