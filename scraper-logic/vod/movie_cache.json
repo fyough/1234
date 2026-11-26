@@ -157850,5 +157850,92 @@
     "Solaris (2002) Bluray 1080p Remux AVC DTS-HD MA 5 1 - EFPG": null,
     "Suspiria (1977) Uncut Synapse BluRay Remux 1080p AVC DTS-HD MA 4 0 D-Z0N3": null,
     "THX 1138 (1971) Directors Cut Repack 1080p Blu-ray x264 DTS-HD MA 5 1-KRaLiMaRKo": null,
-    "The Tunnel (2011) BluRay 1080p DTS-HD HRA 7 1 AVC REMUX-FraMeSToR": null
+    "The Tunnel (2011) BluRay 1080p DTS-HD HRA 7 1 AVC REMUX-FraMeSToR": null,
+    "211 (2018) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "Archive (2020) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "Big Momma's House 2 (2006) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Blue Streak (1999) BluRay 1080p TrueHD 5 1 AVC REMUX-FraMeSToR": null,
+    "Child's Play 2 (1990) PROPER BluRay 1080p TrueHD Atmos 7 1 AVC REMUX-FraMeSToR": null,
+    "Do the Right Thing (1989) 20th Anniversary REMUX 1080p BluRay 1080p DTS-HD MA 5 1 AVC-LEGi0N": null,
+    "Doctor Sleep (2019) Directors Cut BluRay 1080p TrueHD Atmos 7 1 AVC REMUX-FraMeSToR": null,
+    "Halloween II (2009) Director's Cut BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Hamlet (1996) 1080p Bluray x264 DTS-HD MA5 1": null,
+    "Hannibal (2001) BluRay 1080p DTS-HD MA 5 1 x264-FraMeSToR": null,
+    "High School High (1996) 1080p BluRay REMUX AVC DTS-HD MA 5 1-d3g": null,
+    "Imitation of Life (1959) 1080p Remux AVC FLAC 2 0-Mondo": null,
+    "Invasion of the Body Snatchers (1956) REMASTERD 1080p BluRay REMUX AVC DTS-HD-MA 2 0-UnKn0wn": null,
+    "Knocked Up (2007) Unrated PROPER BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Midsommar (2019) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Porky's (1981) BluRay 1080p FLAC 1 0 AVC REMUX-FraMeSToR": null,
+    "Reality Bites (1994) 1080p BluRay AVC DTS-HD MA 5 1 REMUX-demonen": null,
+    "Scary Movie 4 (2006) 1080p Remux MPEG-2 DTS-HD MA 5 1-playBD": null,
+    "Serpico (1973) REMASTERED REMUX 1080p BluRay AVC LPCM 2 0-HiGUCHi": null,
+    "Sin City (2005) Theatrical Cut BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Sing 2 (2021) 1080p BluRay REMUX AVC TrueHD 5 1 Dual Audio -ZR-": null,
+    "Stuart Little 2 (2002) BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N": null,
+    "The Crow City of Angels (1996) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "We Steal Secrets The Story of WikiLeaks (2013) BluRay Remux 1080p AVC DTS-HD MA 5 1-HiFi": {
+        "adult": false,
+        "backdrop_path": "/AhFBR5fYeDhOKGriOBB54buraU2.jpg",
+        "belongs_to_collection": null,
+        "budget": 0,
+        "genres": [
+            {
+                "id": 99,
+                "name": "Documentary"
+            },
+            {
+                "id": 18,
+                "name": "Drama"
+            }
+        ],
+        "homepage": "",
+        "id": 159154,
+        "imdb_id": "tt1824254",
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_title": "We Steal Secrets: The Story of WikiLeaks",
+        "overview": "Julian Assange. Bradley Manning. Collateral murder. Cablegate. WikiLeaks. These people and terms have exploded into public consciousness by fundamentally changing the way democratic societies deal with privacy, secrecy, and the right to information, perhaps for generations to come. We Steal Secrets: The Story of WikiLeaks is an extensive examination of all things related to WikiLeaks and the larger global debate over access to information.",
+        "popularity": 1.4726,
+        "poster_path": "/tJHQbEtZSUry2QDbQcv8ziMt7Ib.jpg",
+        "production_companies": [
+            {
+                "id": 30133,
+                "logo_path": null,
+                "name": "Global Produce",
+                "origin_country": ""
+            },
+            {
+                "id": 2740,
+                "logo_path": "/gSiDWkmEOyOn9MsaCgnjd8Mohmx.png",
+                "name": "Jigsaw Productions",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States"
+            }
+        ],
+        "release_date": "2013-05-24",
+        "revenue": 602042,
+        "runtime": 127,
+        "softcore": false,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "The truth has consequences.",
+        "title": "We Steal Secrets: The Story of WikiLeaks",
+        "video": false,
+        "vote_average": 6.509,
+        "vote_count": 173
+    }
 }
