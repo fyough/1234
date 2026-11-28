@@ -157937,5 +157937,316 @@
         "video": false,
         "vote_average": 6.509,
         "vote_count": 173
-    }
+    },
+    "Bad Lieutenant Port of Call - New Orleans (2009) 1080p BluRay REMUX AVC TrueHD 5 1-EPSiLON": {
+        "adult": false,
+        "backdrop_path": "/abF5X1C7KMJEJnbB7KidfHOIszj.jpg",
+        "belongs_to_collection": null,
+        "budget": 25000000,
+        "genres": [
+            {
+                "id": 18,
+                "name": "Drama"
+            },
+            {
+                "id": 80,
+                "name": "Crime"
+            }
+        ],
+        "homepage": "",
+        "id": 11699,
+        "imdb_id": "tt1095217",
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_title": "The Bad Lieutenant - Port of Call: New Orleans",
+        "overview": "Terrence McDonagh is a New Orleans Police sergeant, who receives a medal and a promotion to lieutenant for heroism during Hurricane Katrina. Due to his heroic act, McDonagh injures his back and becomes addicted to prescription pain medication. He then finds himself involved with a drug dealer who is suspected of murdering a family of African immigrants.",
+        "popularity": 5.5845,
+        "poster_path": "/zRULXsd0rb1lVfnSyQkYPi2nLcB.jpg",
+        "production_companies": [
+            {
+                "id": 6455,
+                "logo_path": "/mc3rMk0tW5ajjbfqkB8xlp85Cdy.png",
+                "name": "Pressman Film",
+                "origin_country": "US"
+            },
+            {
+                "id": 831,
+                "logo_path": "/vLENXiYTyITnMDrTKabUXhgTKX2.png",
+                "name": "Saturn Films",
+                "origin_country": "US"
+            },
+            {
+                "id": 10478,
+                "logo_path": null,
+                "name": "Polsky Films",
+                "origin_country": ""
+            },
+            {
+                "id": 11265,
+                "logo_path": null,
+                "name": "Osiris Productions",
+                "origin_country": ""
+            },
+            {
+                "id": 11266,
+                "logo_path": null,
+                "name": "Lieutenant Productions",
+                "origin_country": ""
+            },
+            {
+                "id": 1020,
+                "logo_path": "/kuUIHNwMec4dwOLghDhhZJzHZTd.png",
+                "name": "Millennium Media",
+                "origin_country": "US"
+            },
+            {
+                "id": 263345,
+                "logo_path": "/cZq1mcnDnPvDdb1y4u7IGsEDOSf.png",
+                "name": "Nu Image Entertainment",
+                "origin_country": "DE"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States"
+            },
+            {
+                "iso_3166_1": "DE",
+                "name": "Germany"
+            }
+        ],
+        "release_date": "2009-09-11",
+        "revenue": 10589102,
+        "runtime": 122,
+        "softcore": false,
+        "spoken_languages": [
+            {
+                "english_name": "Spanish",
+                "iso_639_1": "es",
+                "name": "Espa\u00f1ol"
+            },
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "The only criminal he can't catch is himself.",
+        "title": "The Bad Lieutenant - Port of Call: New Orleans",
+        "video": false,
+        "vote_average": 6.183,
+        "vote_count": 1350
+    },
+    "Black Sheep (1996) BluRay 1080p TrueHD 5 0 AVC REMUX-FraMeSToR": null,
+    "Cube 2 Hypercube (2002) 1080p BluRay REMUX AVC DD 2 0-PTP": null,
+    "Cube Zero (2004) 1080p BluRay REMUX AVC DTS-HD-MA 5 1-UnKn0wn": null,
+    "Dangerous Liaisons (1988) BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N": null,
+    "Day of the Dead (1985) 1080p Blu-ray Remux AVC FLAC 1 0-CiNEPHiLES": null,
+    "Fantastic Fungi (2019) 1080p BluRay Hybrid REMUX AVC DTS-HD MA 5 1-UnKn0wn": null,
+    "Faster, Pussycat! Kill! Kill! (1965) 1080p BluRay REMUX AVC DD 2 0-BLURANiUM": null,
+    "FernGully The Last Rainforest (1992) PROPER BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Friday Foster (1975) Bluray Remux 1080p AVC DTS-HD MA 2 0 - EFPG": null,
+    "From Dusk Till Dawn (1996) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Half Nelson (2006) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Halloween The Curse of Michael Myers (1995) PRODUCERS CUT 1080p BluRay REMUX AVC-DTS-HD MA 5 1-AROMA": {
+        "adult": false,
+        "backdrop_path": "/jHtuoRdP5nGyulwYoV8izEU6p8M.jpg",
+        "belongs_to_collection": {
+            "id": 91361,
+            "name": "Halloween Collection",
+            "poster_path": "/uCIMY95aqKEwIEwNuFq42UQkY9f.jpg",
+            "backdrop_path": "/hUa3JDVZ1L0U7jSfFu4uvzoCJxs.jpg"
+        },
+        "budget": 5000000,
+        "genres": [
+            {
+                "id": 27,
+                "name": "Horror"
+            },
+            {
+                "id": 53,
+                "name": "Thriller"
+            }
+        ],
+        "homepage": "",
+        "id": 10987,
+        "imdb_id": "tt0113253",
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_title": "Halloween: The Curse of Michael Myers",
+        "overview": "Six years after being presumed dead in a fire, and just as the town prepares to finally celebrate Halloween again, Michael Myers returns to Haddonfield to continue his reign of terror.",
+        "popularity": 4.8768,
+        "poster_path": "/noCnM8nEI2bEDSdKHh0RKbwBwbC.jpg",
+        "production_companies": [
+            {
+                "id": 143049,
+                "logo_path": null,
+                "name": "Halloween VI Productions",
+                "origin_country": ""
+            },
+            {
+                "id": 21438,
+                "logo_path": null,
+                "name": "Nightfall Productions",
+                "origin_country": ""
+            },
+            {
+                "id": 15822,
+                "logo_path": "/fNHvjC0DGO46kz7GFYRoWo91lcY.png",
+                "name": "Trancas International Films",
+                "origin_country": "US"
+            },
+            {
+                "id": 7405,
+                "logo_path": "/rfnws0uY8rsNAsrLbx3gEIcYXx3.png",
+                "name": "Dimension Films",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States"
+            }
+        ],
+        "release_date": "1995-09-29",
+        "revenue": 15116634,
+        "runtime": 88,
+        "softcore": false,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "Terror never rests in peace.",
+        "title": "Halloween: The Curse of Michael Myers",
+        "video": false,
+        "vote_average": 5.147,
+        "vote_count": 1310
+    },
+    "How High (2001) 1080p Bluray REMUX AVC DD 5 1-ARTEMiS": null,
+    "How High 2 (2019) BluRay 1080p DD 5 1 AVC REMUX-FraMeSToR": null,
+    "LEGO Scooby-Doo! Blowout Beach Bash (2017) REMUX 1080p Bluray AVC DTS-HD MA 5 1-LEGi0N": null,
+    "Leprechaun (1993) PROPER BluRay 1080p DTS-HD MA 5 1 AVC HYBRID REMUX-FraMeSToR": null,
+    "Leprechaun 3 (1995) PROPER BluRay 1080p DTS-HD MA 5 1 AVC HYBRID REMUX-FraMeSToR": null,
+    "Leprechaun Returns (2018) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "Love Lies Bleeding (2024) 1080p BluRay REMUX AVC TrueHD 7 1-UnKn0wn": null,
+    "Muppets Haunted Mansion (2021) 1080p DSNP WEB-DL DD+ 5 1 H 264-GPRS": null,
+    "Muppets from Space (1999) REPACK BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Norbit (2007) BluRay 1080p DD 5 1 AVC REMUX-FraMeSToR": null,
+    "Old (2021) BluRay 1080p TrueHD Atmos 7 1 AVC REMUX-FraMeSToR": null,
+    "Once Upon a Forest (1993) 1080p AMZN WEB-DL AAC2 0 x264-SiGMA": null,
+    "Rubber (2010) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "Rugrats Go Wild (2003) 1080p WEB H264-DiMEPiECE": null,
+    "Rugrats in Paris The Movie (2000) 1080p BluRay REMUX AVC TrueHD 5 1-TOA": null,
+    "Scary Movie 5 (2013) Unrated 1080p BluRay REMUX AVC DTS-HD HRA 5 1-BLURANiUM": null,
+    "School of Rock (2003) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Scooby-Doo! Frankencreepy (2014) BluRay 1080p AVC DTS-HD MA 5 1 REMUX-FraMeSToR": null,
+    "Son of the Mask (2005) 1080p BluRay REMUX AVC DTS-HD MA 5 1-S3R": null,
+    "Sorcerer (1977) 1080p BluRay AVC DTS-HD MA 5 1 REMUX-GODDESS": null,
+    "Space Jam (1996) 1080p BluRay REMUX AVC DTS-HD-MA 5 1-UnKn0wn": null,
+    "Terminator 2 Judgment Day (1991) Theatrical Cut 1080p 35mm REMUX AVC DD 2 0": null,
+    "The Craft Legacy (2020) REMUX 1080p Blu-ray AVC DTS-HD MA 5 1-LEGi0N": null,
+    "The Crow (1994) NORDiC 4K Remaster BluRay 1080p DTS-HD MA 5 1 AVC REMUX-CiNEMiX": null,
+    "The Crow Salvation (2000) 1080p Blu-ray Remux AVC DTS-HD MA 5 1-PhSY": null,
+    "The Dark Crystal (1982) BluRay 1080p TrueHD Atmos 7 1 AVC HYBRID REMUX-FraMeSToR": null,
+    "The Defiant Ones (1958) 1080p BluRay REMUX AVC FLAC 2 0-EPSiLON": null,
+    "The Even Stevens Movie (2003) 720p DSNY WEBRip AAC 2 0 x264-RTN": null,
+    "The Flintstones (1994) NORDIC 1080p BluRay REMUX AVC DTS-HD MA 5 1-Danishbits": null,
+    "The Lizzie McGuire Movie (2003) 1080p AMZN WEB-DL DD+5 1 H 264-AJP69": null,
+    "The Maltese Falcon (1941) 1080p BluRay x264 DTS-HD MA 1 0-EPSiLON": null,
+    "The Muppets (2011) 1080p Bluray Remux AVC DTS-HD MA 7 1-KRaLiMaRKo": null,
+    "The Muppets' Wizard of Oz (2005) 1080p AMZN WEB-DL DDP5 1 H 264": null,
+    "The Room (2003) BluRay 1080p DD 5 1 AVC REMUX-FraMeSToR": null,
+    "The Rugrats Movie (1998) 1080p Blu-ray Remux AVC TrueHD 5.1-E.N.D.mkv": null,
+    "The Toxic Avenger (1984) 1080p BluRay REMUX AVC DTS-HD MA 2 0-MonkeyBoy": null,
+    "The Toxic Avenger Part III The Last Temptation of Toxie (1989) 1080p BluRay REMUX AVC FLAC 2 0-MonkeyBoy": {
+        "adult": false,
+        "backdrop_path": "/7nkc6FEalesKjvW1lWDlObdjWa4.jpg",
+        "belongs_to_collection": {
+            "id": 32135,
+            "name": "The Toxic Avenger Collection",
+            "poster_path": "/4EX2gBxtXQWeq4IoZw2lurl44Xd.jpg",
+            "backdrop_path": "/ofIwwNjI0TDOPZeAOIXSrXJQqwi.jpg"
+        },
+        "budget": 500000,
+        "genres": [
+            {
+                "id": 28,
+                "name": "Action"
+            },
+            {
+                "id": 35,
+                "name": "Comedy"
+            },
+            {
+                "id": 27,
+                "name": "Horror"
+            },
+            {
+                "id": 878,
+                "name": "Science Fiction"
+            }
+        ],
+        "homepage": "http://www.troma.com",
+        "id": 28169,
+        "imdb_id": "tt0098502",
+        "origin_country": [
+            "US"
+        ],
+        "original_language": "en",
+        "original_title": "The Toxic Avenger Part III: The Last Temptation of Toxie",
+        "overview": "Desperate to raise money for the experimental surgery that could restore his blind fiancee's eyesight, Toxie accepts a lucrative job with the evil multinational conglomerate Apocalypse Inc.",
+        "popularity": 1.7906,
+        "poster_path": "/2jb84AnOjaYuhR2vaWkAOfItP9B.jpg",
+        "production_companies": [
+            {
+                "id": 3052,
+                "logo_path": "/kqP7DC8cUCzDSI5SXiJKJKmQg1K.png",
+                "name": "Troma Entertainment",
+                "origin_country": "US"
+            }
+        ],
+        "production_countries": [
+            {
+                "iso_3166_1": "US",
+                "name": "United States"
+            }
+        ],
+        "release_date": "1989-11-24",
+        "revenue": 363561,
+        "runtime": 102,
+        "softcore": false,
+        "spoken_languages": [
+            {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+            }
+        ],
+        "status": "Released",
+        "tagline": "The REAL American superhero!",
+        "title": "The Toxic Avenger Part III: The Last Temptation of Toxie",
+        "video": false,
+        "vote_average": 4.9,
+        "vote_count": 161
+    },
+    "Twins (1988) REPACK BluRay 1080p DTS-HD MA 5 1 AVC HYBRID REMUX-FraMeSToR": null,
+    "Uptown Girls (2003) 1080p Remux BluRay DTS-HD5 1 MULTI-Hiro360": null,
+    "Valley Girl (1983) BluRay 1080p DTS-HD MA 5 1 AVC REMUX-FraMeSToR": null,
+    "Watership Down (1978) 1080p MAX WEB-DL DDP2 0 H 264-GPRS": null,
+    "Weird Science (1985) MULTi REMUX 1080p Blu-ray AVC DTS-HD MA 5 1-LEGi0N": null,
+    "Willy's Wonderland (2021) REMUX 1080p Blu-ray AVC DTS-HD MA 5 1-LEGi0N": null,
+    "Wrong Turn 3 Left for Dead (2009) Unrated 1080p BluRay REMUX AVC DTS-HD MA 5 1-SQS": null,
+    "Wrong Turn 5 Bloodlines (2012) 1080p BluRay REMUX AVC DTS-HD MA 5 1-EPSiLON": null,
+    "You, Me and Dupree (2006) 1080p Bluray x264 DTS-HD MA 5 1-4K4U": null
 }
